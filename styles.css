@@ -1,0 +1,28 @@
+body {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    font-family: 'Monaco', monospace;
+    padding: 20px 300px;
+  }
+
+  code {
+    display: block;
+    padding: 10px;
+    background-color: #2b2b2b;
+    color: #d4d4d4;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+
+  a {
+      text-decoration: none;
+  }
+
+  h2 {
+      color: #d4d4d4;
+      margin: 45px;
+  }
+
+  h1 {
+    text-align: center;
+  }
