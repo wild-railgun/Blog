@@ -16,7 +16,64 @@
     </header>
 
     <section>
+        <p>
+            let and const are new ways of declaring a variable. They were introduced in ES6.
+        </p>
+
+        <p>
+            When a variable is declared using var in a function, it has function scope. In 
+            other words, that variable is only accessible inside that function. However, 
+            when a variable is declared using the var keyword inside curly braces {}, it is 
+            not limited to the scope of these curly braces. It can only be accessed outside 
+            of this block.
+        </p>
+
+        <code>
+            <pre>
+                let a = 10;
+                
+                if (a === 10) {
+                    var varVariable = 55;
+                }
+
+                
+                console.log(varVariable); // This will output the value of varVariable
+            </pre>
+        </code>
         
+        <p>
+            On the other hand, when we declare a variable using the let and const keyword, 
+            they are only accessible inside that block of code, whether it is inside of a function, 
+            an if statement block, or any other block. In other words, let and const have block scope.
+        </p>
+
+        <code>
+            <pre>
+                let a = 10;
+                
+                if (a === 10) {
+                    let letVariable = 55; //
+                }
+                
+                console.log(letVariable); // Uncaught ReferenceError: letVariable is not defined
+            </pre>
+        </code>
+
+        <p>
+            You might be wondering the difference between let and const keywords. The crucial 
+            difference between the two is that variables declared with the let keyword can be 
+            reassigned a value but that is not the case with the const keyword. A const variable 
+            defines a constant reference to a value, they cannot be reassigned.
+        </p>
+
+        <p>
+            Variable declared with let or const keyword cannot be redeclared within the same 
+            scope but variable declared with the var keyword can be redeclared, this solves a 
+            lot of errors and problems and therefore it is a good practice to use let and const 
+            keyword instead of var. But variables declared by the let keyword can be reassigned 
+            a value.
+        </p>
+        </p>
     </section>
 
   <code>
