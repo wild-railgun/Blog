@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let, Const, and Var Difference</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-monaco@0.0.80">
+</head>
+<body>
+
+    <header>
+        <h1>
+            JavaScript Hoisting
+        </h1>
+    </header>
+
+    <section>
+
+        <h1>
+            Main Points
+        </h1>
+
+        <ul>
+            <li>
+                Hoisting refers to the behavior where variable and function declarations 
+                are moved to the top of their scope before code execution.
+            </li>
+
+            <li>
+                Function declarations defined with the function keyword are hoisted to the 
+                top of their enclosing scope. This allows functions to be used before they 
+                are defined.
+            </li>
+
+            <li>
+                Variable declarations with var are hoisted, but only the declaration, 
+                not the assignment. So var variables will have a value of undefined 
+                before assignment.
+            </li>
+
+            <li>
+                let and const variable declarations are not hoisted. Using them before 
+                declaration will result in a reference error.
+            </li>
+
+            <li>
+                Function declarations and var variables being hoisted can lead to unexpected 
+                behavior and bugs if you don't understand how it works.
+            </li>
+
+            <li>
+                Hoisting is relied upon in most JavaScript code for functions to be used 
+                before their definition. But usage of variables before declaration depends 
+                on hoisting and is best avoided.
+            </li>
+
+            <li>
+                Function declarations and var variables being hoisted can lead to unexpected 
+                behavior and bugs if you don't understand how it works.
+            </li>
+        </ul>
+
+</body>
+</html>
