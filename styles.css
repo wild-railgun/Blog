@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
 body {
   background-color: #1e1e1e;
   color: #d4d4d4;
-  font-family: 'Monaco', monospace;
-  padding: 20px 300px;
+  /* font-family: 'Monaco', monospace; */
+  font-family: 'Readex Pro';
+  /* padding: 20px 300px; */
+  width: 60%;
+  margin: auto;
+}
+
+p, li {
+  margin-bottom: 25px;
+  font-size: 20px;
+  line-height: 170%;
 }
 
 code {
@@ -12,6 +23,8 @@ code {
   color: #d4d4d4;
   border-radius: 5px;
   overflow-x: auto;
+  margin-bottom: 20px;
+  line-height: 150%;
 }
 
 a {
@@ -25,4 +38,38 @@ h2 {
 
 h1 {
   text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    width: 70%;
+  }
+} 
+
+@media screen and (max-width: 900px) {
+  body {
+    width: 80%;
+  }
+}  
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  p, li {
+    margin-bottom: 25px;
+    font-size: 15px;
+    /* line-height: 130%; */
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    width: 93%;
+  }
 }
