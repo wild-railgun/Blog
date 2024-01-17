@@ -10,6 +10,22 @@ body {
   margin: auto;
 }
 
+nav {
+  width: 20%;
+  text-align: left;
+  margin: auto;
+  /* background:#2b2b2b; */
+  border-radius: 8px;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  color: #d4d4d4;
+}
+
 p, li {
   margin-bottom: 25px;
   font-size: 20px;
